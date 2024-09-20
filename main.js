@@ -20,8 +20,15 @@ const letThemIn = (age) => {
 }
 
 const joinMailingList = (user, users) => {
-    if (user.indexOf(user) === -1) {
-        consol.log("Join our mailing list...or else...");
+    if (user.indexOf(users) === -1) {
+        console.log("Join our mailing list...or else...");
     }
 }
+
+const giveFreeCoffee = (customer, customers) => {
+    if ((customer.indexOf(customers) !== -1 && customer.purchases > 5) || customer.hasCoupon) {
+        console.log("Here is a free coffee!");
+    }
+}
+
 
