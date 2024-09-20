@@ -19,8 +19,8 @@ const letThemIn = (age) => {
     }
 }
 
-const joinMailingList = (user, users) => {
-    if (user.indexOf(users) === -1) {
+const joinMailingList = (customer, customers) => {
+    if (customer.indexOf(customers) === -1) {
         console.log("Join our mailing list...or else...");
     }
 }
